@@ -2,4 +2,4 @@ fileignoreconfig:
 - filename: index.html
   checksum: cf6374f6f324012329ef3b4bfc58defef12b36362841471506334dc5a2121154
 - filename: styles.css
-  checksum: 78e3a558334a8d898933340c9162845d00d7202896fa4c300eeaaeb6b9f1dacb
+  checksum: d2dce716002ec48de7eeb2cac6d742e7e92403e3d5badb13a84228aa24a7df7d

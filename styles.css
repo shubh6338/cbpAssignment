@@ -1,66 +1,145 @@
-body{
-    font-family: 'Open Sans',sans-serif;
+body {
+    font-family: 'Open Sans', sans-serif;
 }
-.intro{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url("https://images01.nicepage.com/2c/aa/2caae017a61202f87bc36fab57e85a63.png") ;
+
+.intro {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images01.nicepage.com/2c/aa/2caae017a61202f87bc36fab57e85a63.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 60vh;
     padding: 200px 250px 0 250px;
 }
 
-.text1{
+.text1 {
     color: #F4CB08;
 }
 
-.text2{
+.text2 {
     font-size: 5vh;
     text-transform: uppercase;
     color: white;
 }
 
-.button1{
+.button1 {
     background-color: #F4CB08;
     border-color: #F4CB08;
-    border-radius: 5px ;
+    border-radius: 5px;
     color: white;
     margin: 10px 15px;
     padding: 10px 15px;
 }
 
-.button2{
+.button3 {
+    background-color: #F4CB08;
+    border-color: #F4CB08;
+    border-radius: 5px;
+    color: white;
+    margin: 10px 15px;
+    padding: 10px 15px;
+}
+
+.button2 {
     background-color: transparent;
     border-color: white;
     color: white;
-    border-radius: 5px ;
+    border-radius: 5px;
     margin: 10px 15px;
     padding: 10px 15px;
 }
 
-.image1{
+.image1 {
     width: 300px;
-    margin-top: -336px; 
+    margin-top: -336px;
     margin-left: 700px;
     margin-right: 12px;
     margin-bottom: -60px;
     position: relative;
 }
 
-.p1{
-    color:white;
+.p1 {
+    color: white;
     font-size: 2vh;
 }
 
-.introText{
+.introText {
     position: relative;
     padding: 100px 16px 0px 13px;
 }
 
-.aboutMe{
+.aboutMe {
     display: flex;
     flex-direction: row;
 }
 
-.aboutMe > div{
+.aboutMe>div {
     margin: 100px;
+}
+
+.aboutMe>a2 {
+    flex-shrink: 0;
+}
+
+.a1 {
+    color: #F4CB08;
+    font-size: 24px;
+}
+
+.a2 {
+    font-size: 36px;
+}
+
+.a3 {
+    color: #b3b3b3;
+    font-size: 24px;
+}
+
+.am1 {
+    padding: 0px 0px 0px 13px;
+}
+
+.designList {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    height: 40vh;
+}
+
+.design {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images01.nicepage.com/bf/37/bf37f8217e4b71feb26707d632c6845d.png");
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    height: 40vh;
+    padding: 100px 30px 20px;
+}
+
+.construction {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images01.nicepage.com/45/78/457883519366bc77e9ffb4294b44f8df.png");
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    height: 40vh;
+    padding: 100px 30px 20px;
+}
+
+.finishing {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images01.nicepage.com/35/97/35970472e6f88da51190947c84ba6f2a.png");
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    height: 40vh;
+    padding: 100px 30px 20px;
+}
+
+.border{
+    border-width: 3px;
+    border-color: #F4CB08;
+    border-style: solid;
+    position: relative;
+    transform-origin: left center 0;
+    transform: rotate(359.994deg);
+    margin: 17px 400px 0 0;
+}
+
+.serviceList {
+    display: flex;
+    flex-direction:row;
+    height: 40vh;
 }
