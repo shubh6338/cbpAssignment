@@ -128,7 +128,7 @@ body {
     padding: 100px 30px 20px;
 }
 
-.border{
+.border {
     border-width: 3px;
     border-color: #F4CB08;
     border-style: solid;
@@ -143,4 +143,40 @@ body {
     grid-template-columns: auto auto auto;
     height: 40vh;
     padding: 100px;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 10vh;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+    max-width: 100%;
+}
+
+.footer1 {
+    font-size: 20px;
+    padding: 70px;
+}
+
+.footer2 {
+    padding: 100px 300px;
+}
+
+.footerButton {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.footerButton:hover{
+    background-color: white;
+    color: black;
 }
