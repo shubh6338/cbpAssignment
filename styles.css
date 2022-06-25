@@ -194,12 +194,29 @@ body {
     padding: 15px;
 }
 
-.pictures{
+.pictures {
     display: flex;
     flex-direction: row;
 }
 
-.pictures img{
+.pictures img {
     padding: 20px;
     position: relative;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 250px;
+}
+
+.testimonialsContainer {
+    padding: 40px 40px 80px 40px;
+    border: white;
+    border-style: solid;
+    margin: 40px;
+}
+
+.testimonialsImage {
+    padding: -200px 0px 0px -100px;
 }
