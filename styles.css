@@ -184,7 +184,6 @@ body {
 .blog {
     display: flex;
     flex-direction: row;
-
 }
 
 .blogContainer {
@@ -193,4 +192,14 @@ body {
 
 .blogContent {
     padding: 15px;
+}
+
+.pictures{
+    display: flex;
+    flex-direction: row;
+}
+
+.pictures img{
+    padding: 20px;
+    position: relative;
 }
