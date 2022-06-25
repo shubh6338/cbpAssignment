@@ -176,7 +176,21 @@ body {
     padding: 10px;
 }
 
-.footerButton:hover{
+.footerButton:hover {
     background-color: white;
     color: black;
+}
+
+.blog {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.blogContainer {
+    padding: 10px;
+}
+
+.blogContent {
+    padding: 15px;
 }
