@@ -146,9 +146,13 @@ body {
 }
 
 .portfolio {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    max-width:100%;
+}
+
+.portfolio img{
+    width: 90%;
 }
 
 .footer {
@@ -225,6 +229,7 @@ body {
     display: flex;
     flex-direction: row;
     padding: 40px 250px;
+    width:fit-content;
 }
 
 .progressContainer{
