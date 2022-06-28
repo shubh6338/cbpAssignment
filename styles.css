@@ -248,4 +248,13 @@ use.icon{
     text-align: center;
 }
 
-https://images01.nicepage.com/23/2c/232c6d839624da0ae42d0f0b813ed0e8.jpeg
+.team{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 100px;
+}
+
+.teamContainer {
+    padding: 40px 40px 40px 10px;
+    margin: 40px;
+}
