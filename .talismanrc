@@ -1,5 +1,5 @@
 fileignoreconfig:
 - filename: index.html
-  checksum: 6e8668d36d57555262bc125c92bafc4adc8b3db98b9d7d5eef7b0d0874de5076
+  checksum: e07a82af1967072fd25e6dd5dd03a87ba275839d7b06fe34d20dfa9fd2956bb1
 - filename: styles.css
   checksum: a3ac535916195aa6a1cb4f4ec7eb4d5dd0e1ee081ddb860d4801be607b2d757b
