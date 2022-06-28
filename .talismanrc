@@ -5,3 +5,5 @@ fileignoreconfig:
   checksum: d2dce716002ec48de7eeb2cac6d742e7e92403e3d5badb13a84228aa24a7df7d
 - filename: index.html
   checksum: af16c538dcdae7a1fa2ddc0ecbd193b51c178a6bf68b6e3c1dfdc619f14377be
+- filename: styles.css
+  checksum: a3ac535916195aa6a1cb4f4ec7eb4d5dd0e1ee081ddb860d4801be607b2d757b

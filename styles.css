@@ -220,3 +220,32 @@ body {
 .testimonialsImage {
     padding: -200px 0px 0px -100px;
 }
+
+.progress{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 250px;
+}
+
+.progressContainer{
+}
+
+use.icon{
+    fill: black;
+}
+
+.review{
+    height:20vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images01.nicepage.com/23/2c/232c6d839624da0ae42d0f0b813ed0e8.jpeg");
+    display: flex;
+    flex-direction: row;
+    padding: 40px 250px;
+}
+
+.reviewContainer {
+    padding: 40px 40px 80px 40px;
+    margin: 40px;
+    text-align: center;
+}
+
+https://images01.nicepage.com/23/2c/232c6d839624da0ae42d0f0b813ed0e8.jpeg
